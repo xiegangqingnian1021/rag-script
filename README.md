@@ -66,15 +66,15 @@ pip install "uvicorn[standard]
 - 准备环境变量
 
 ```
-OPENAI_API_KEY="sk-U8*****"
-OPENAI_BASE_URL="https://api.zyai.online/v1"
+OPENAI_API_KEY="sk-******"
+OPENAI_BASE_URL="https://******/v1"
 CHROMA_HOST="192.168.105.100"
-CHROMA_PORT="8000" 
+CHROMA_PORT=8000 
 ```
 
 
 
-## 基本思路
+## 基本思路：
 
 - 第一步，编写RAG脚本
 - 第二步，建立库表
@@ -89,5 +89,3 @@ CHROMA_PORT="8000"
 <img src='./img/chat2.png'>
 
 <img src='./img/chat3.png'>
-
-## 
